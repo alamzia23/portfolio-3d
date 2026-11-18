@@ -1,0 +1,22 @@
+node_modules/
+/node_modules
+.next/
+out/
+dist/
+*.tsbuildinfo
+.DS_Store
+.env*
+
+# Local reference material and development notes
+/references/
+/preview/
+/REFERENCE_ANALYSIS.md
+/IMPLEMENTATION_PLAN.md
+/VALIDATION.md
+
+# Local tool settings and session artifacts; keep repository workflows
+/.*/
+!/.github/
+AGENTS.md
+CLAUDE.md
+*.log
